@@ -2,9 +2,27 @@ import numpy as np
 
 #Creating linear regression model from scratch
 
-class Linear_Regression():
+class LinearRegression():
+    """ Linear Regression implemented from scratch using NumPy and Batch Gradient Descent. 
+    Model: y_hat = Xw + b 
+    Cost function: J(w, b) = (1 / m) * sum((y - y_hat)^2) 
+    Gradient descent: 
+    w = w - learning_rate * dw 
+    b = b - learning_rate * db """
     
-    def __init__(self, learning_rate, no_of_iterations):
+    def __init__(self, learning_rate: float = 0.01, no_of_iterations: int = 1000):
+        
+        """ Initialize the linear regression model. 
+        Parameters ---------- 
+        learning_rate : float Step size used during gradient descent. 
+        no_of_iterations : int Number of gradient descent iterations. """
+        
+        
+        if learning_rate <= 0: 
+            raise ValueError("learning_rate must be greater than 0.") 
+        if no_of_iterations <= 0: 
+            raise ValueError("no_of_iterations must be greater than 0.")
+        
         self.learning_rate = learning_rate
         self.no_of_iterations = no_of_iterations
     
