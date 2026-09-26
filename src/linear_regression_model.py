@@ -196,4 +196,3 @@ class LinearRegression:
 
         if not np.all(np.isfinite(y)):
             raise ValueError("y contains NaN or infinite values.")
-
