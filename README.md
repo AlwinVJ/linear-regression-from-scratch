@@ -417,7 +417,17 @@ The following YouTube playlist is also used as a practical learning reference wh
 
 https://youtube.com/playlist?list=PLfFghEzKVmjsxY5ciwh27IyxuFymb798X&si=alGtcvUHf2KBsMJg
 
+### Regression Lab
+
 The playlist provides additional explanations and practical demonstrations that complement the mathematical concepts implemented in this repository.
+The practical implementation of this project is available as an interactive web application:
+
+Linear Regression Lab
+An interactive learning environment for exploring linear regression concepts, mathematics, and implementation.
+
+Live Demo: https://alwinvj.github.io/Linear_Regression_Lab/
+
+The website is designed to complement this repository by providing a visual and interactive way to understand the concepts implemented in code.
 
 ### How These Resources Are Used
 
