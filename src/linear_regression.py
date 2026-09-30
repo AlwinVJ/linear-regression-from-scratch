@@ -2,7 +2,7 @@ import numpy as np
 
 #Creating linear regression model from scratch
 
-class LinearRegression():
+class Linear_Regression():
     def __init__(self, learning_rate: float = 0.01, no_of_iterations: int = 1000):
         if learning_rate <= 0: 
             raise ValueError("learning_rate must be greater than 0.") 
