@@ -392,3 +392,48 @@ sklearn.linear_model.LinearRegression
 for the actual model training.
 
 NumPy is used for numerical and matrix operations.
+
+---
+
+## Learning Resources & References
+
+This project is developed as a hands-on implementation of the concepts behind linear regression. The following resources are used as references for understanding the mathematical foundations, model behavior, and practical implementation of linear regression.
+
+### Google Machine Learning Crash Course
+
+The **Google Machine Learning Crash Course** provides a structured introduction to linear regression, including concepts such as predictions, loss, mean squared error, and gradient-based optimization.
+
+**Linear Regression — Google Machine Learning Crash Course**
+
+https://developers.google.com/machine-learning/crash-course/linear-regression
+
+This resource is used primarily as a theoretical reference for understanding the concepts behind the implementation.
+
+### YouTube Course / Playlist
+
+The following YouTube playlist is also used as a practical learning reference while developing this project:
+
+**Machine Learning Course Playlist**
+
+https://youtube.com/playlist?list=PLfFghEzKVmjsxY5ciwh27IyxuFymb798X&si=alGtcvUHf2KBsMJg
+
+The playlist provides additional explanations and practical demonstrations that complement the mathematical concepts implemented in this repository.
+
+### How These Resources Are Used
+
+The purpose of using these resources is not to replace the implementation with pre-built machine learning libraries. Instead, they serve as learning references while the core linear regression algorithm is implemented independently using Python and NumPy.
+
+The learning process can be summarized as:
+
+```text
+Learn the mathematical concept
+            ↓
+Understand the algorithm
+            ↓
+Implement it manually
+            ↓
+Train on a dataset
+            ↓
+Evaluate the implementation
+            ↓
+Compare with established implementations
